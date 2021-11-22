@@ -2,23 +2,80 @@
     font-family: 'pacifica-condensed-regular';
     src: url(pacificacondensedregular.ttf);
 }
+audio {
+    display:none;
+}
 body{
     margin: 0;
     padding:0;
-
+    
+}
+header{
+    position: fixed;
+    width: 100%;
 }
 .header{
+    
     display: flex;
     justify-content: center;
-    height: 1px;
+    height: 100px;
     background: rgba(255, 255, 255, 0.404);
 }
+#latesq{
+align-content: center;
+justify-content: center;
+align-items: center;
+display: flex;
+width: 35%;
+height: 100px;
+background-color: rgb(255, 255, 255);
+}
+#sej{
+  
+    text-align: center;
+    margin: 0;
+    padding-left: 0;
+    font-family: 'pacifica-condensed-regular';
+    font-size: 50px;
 
+}
+#latedir{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    width: 65%;
+    height: 100px;
+    background-color:rgb(255, 255, 255) ;
+
+
+}
+a{
+    font-weight:bold ;
+    margin: 20px;
+    padding-top: 20px;
+    font-family: 'pacifica-condensed-regular';
+    border-color: transparent;
+    color: black;
+    height: 50px;
+    font-size:30px ;
+    border-radius: 5px;
+
+}
+a:visited{
+    color: black;
+}
+a:link{ 
+ text-decoration:none; 
+} 
 main{
     display: flex;
     flex-direction: column;
 }
 .one{
+    margin-top: 100px;
     display: flex;
     background: rgba(80, 80, 80, 0.404);
     width: 100%;
@@ -122,6 +179,7 @@ h2{
 }
 #fotodois{
     height: 470px;
+    width: 100%;
 }
 
 #textotres{
@@ -164,4 +222,31 @@ h2{
     text-align: justify;
     line-height: 2;
     font-family: Arial, Helvetica, sans-serif;
+}
+#musica{
+    padding: 0;
+    margin: 0;
+}
+audio{
+    margin: 0;
+    padding: 0;
+}
+#footer{
+    margin-top:100px;
+    justify-content: center;
+    align-items:center ;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    display: flex;
+
+}
+
+.dados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    width: 100%;
 }
